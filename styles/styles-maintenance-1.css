@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 
+CSS for Maintenance Page
+Date: 01/12/18
+Author: Heather Ayvazian (hayvazian@jhancock.com) 
+Department: Digital Experience, JHI
+*/
+
+/* IDS */ 
+html, body {
+}
+
+#tax-container {
+	margin: 0 auto;
+	width: 700px;
+	height: 4700px;
+	background: linear-gradient(to bottom, #4A719A 0%, #012c5a 100%)
+}
+
+/* CLASSES */
+
+p {
+	color: #FFFFFF;
+	font-size: 1.1em !important;
+}
+
+h1 {
+	color: #FFFFFF;
+
+}
+
+h2 {
+	color: #FFFFFF;
+	font-size: 1.1em !important;
+	letter-spacing: 0rem !important;
+}
+
+h3 {
+	color: #FFFFFF;
+	font-size: 2.3em !important;
+	font-weight: 100 !important;
+}
+
+.stars {
+	text-align: center;
+}
+
+.em-font {
+	font-size: 6em;
+	margin-bottom: 0;
+	padding-top: 0;
+	color: #FFFFFF;
+	font-weight: 600;
+
+}
+
+.content {
+	padding: 60px 0;
+}
+
+.header {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.left-half {
+	padding-right: 25px;
+	padding-left: 50px;
+/*	border-right: #FFFFFF 2px solid;*/
+	text-align: right;
+}
+
+.lines {
+	float: right;
+	border-right: #FFFFFF 2px solid;
+	-webkit-mask-image: url(../images/rough-texture.png);
+    -moz-mask-image: url(../images/rough-texture.png);
+    -o-mask-image: url(../images/rough-texture.png);
+    mask-image: url(../images/rough-texture.png);
+}
+
+.right-half {
+	padding-left: 25px;
+	padding-right: 50px;
+}
+
+.columns {
+	margin-left: 0 !important;
+}
+
+.capital {
+	margin: 50px 0;
+}
+
+.star-img {
+	width: 5%;
+}
+
+.bag-img {
+	width: 15%;
+}
+
+a:link, a:visited, a:active, a:hover {
+	color: #4A719A;
+}
+
+.disclosure p{
+	color: #4A719A;
+	font-weight: 600;
+}
+
+.disclosure {
+	padding: 20px 50px 50px 50px;
+}
+
+
+.logo {
+	padding: 80px 0 50px 0;
+}
+
+
+.footer {
+	text-align: center;
+}
+
+.footer ul{
+	list-style: none; 
+    margin-left: 0; 
+	list-style-type: square;
+}
+
+.footer li {
+	display: inline;
+	margin: 0;
+	padding-right: 20px;
+	vertical-align: bottom; 
+}
+
+.footer-nav-a a{
+	color: #FFFFFF; 
+	text-decoration: none;
+	font-size: 1.1em;
+}
+
+.footer-nav-b a{
+	color: #9DCEE0; 
+	text-decoration: none;
+	font-size: 1em;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 350px) {
+
+}
+
+
